@@ -1,0 +1,23 @@
+{
+  "name": "runkeeperminer-js",
+  "version": "1.0.0",
+  "description": "runkeeper data (csv) parser",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "nodejs lib/index.js"
+  },
+  "author": "Tjerk Valentijn",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.7.1",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
